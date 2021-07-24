@@ -4,9 +4,9 @@
 # Write code, which will count how many times your character is included in your string.
 # Save result to result_1 variable
 
-string_1 = 123
-char_1 = 456
-result_1 = 789
+string_1 = None
+char_1 = None
+result_1 = None
 
 
 # Enter a random number and save it in variable number_1. Then create code to multiply all the digits together
