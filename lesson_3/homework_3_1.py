@@ -67,29 +67,67 @@
 # If they enter a number within this range, save a message “Thank you” to result_4, otherwise a
 # message “Incorrect answer” to result_4.
 
-number_2 = int(input('num:'))
-result_4 = None
-
-if 10 <= number_2 <= 20:
-    result_4 = "Thank you"
-    print(number_2, result_4)
-
-else:
-    result_4 = "Incorrect answer"
-    print(result_4)
+# number_2 = int(input('num:'))
+# result_4 = None
+#
+# if 10 <= number_2 <= 20:
+#     result_4 = "Thank you"
+#     print(number_2, result_4)
+#
+# else:
+#     result_4 = "Incorrect answer"
+#     print(result_4)
 
 # Enter your age. If you are 18 or over, save the message “You can vote” in result_5,
 # if you are aged 17, save the message “You can learn to drive” in result_5 variable,
 # if you are 16, save the message “You can buy a lottery ticket” in result_5,
 # if you are under 16, save the message “You can go Trick-or-Treating” in result_5 variable.
 
-age = None
-result_5 = None
-
+# age = int(input('age='))
+#
+#
+# if age >= 18:
+#     result_5 = "you can vote"
+# elif age >= 17:
+#     result_5 = "you can learn to driver"
+# elif age >= 16:
+#     result_5 = "you can buy a lottery ticket"
+# else:
+#     result_5 = "YOu can go Trick-or - Treating"
+# print(result_5)
 
 # Enter a number between 1 and 12, save this value to month variable. Find which month is it.
 # (January, February, March, April, May, June, Jule, August, September, October, November, December)
 # Write answer in result_month in lower case
 
-month = None
-result_month = None
+month = int(input('month:'))
+
+if month == 1:
+    result_month = str.lower("January")
+elif month == 2:
+    result_month = str.lower("February")
+elif month == 3:
+    result_month = str.lower("March")
+elif month == 4:
+    result_month = str.lower("April")
+elif month == 5:
+    result_month = str.lower("May")
+elif month == 6:
+    result_month = str.lower("June")
+elif month == 7:
+    result_month = str.lower("July")
+elif month == 8:
+    result_month = str.lower("August")
+elif month == 9:
+    result_month = str.lower("September")
+elif month == 10:
+    result_month = str.lower("October")
+elif month == 11:
+    result_month = str.lower(" November")
+elif month == 12:
+    result_month = str.lower("December")
+
+else:
+    result_month = "Error: Invalid Number"
+
+print(f'result_month= {result_month}')

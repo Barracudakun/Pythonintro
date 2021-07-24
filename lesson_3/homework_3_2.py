@@ -5,8 +5,23 @@
 # If number is  greater than 15 and less than or equal to 20, save the number raised to the power 3 to result_1
 # Else save the text "Wrong value" to result_1
 
-number = None
-result_1 = None
+'''
+number = int(input('number:'))
+
+for i in range(1, 21):
+    if 0 < number <= 7:
+        result_1 = number*10
+    elif 7 < number <= 15:
+        result_1 = number//3
+    elif 15 < number <= 20:
+        result_1 = number**3
+    else:
+        result_1 = "Wrong value"
+
+print(f'result_1 = {result_1}')
+'''
+
+
 
 
 # Enter two numbers between 1 and 10, save this values to number_1 variable and number_2 variables.
@@ -17,18 +32,48 @@ result_1 = None
 # If both numbers are greater than 5 and less than or equal to 10, multiply their sum by 3 and save it to result_2
 # Else save the text "Wrong values, try again" to result_2
 
-number_1 = None
-number_2 = None
-result_2 = None
+number_1 = int(input("number_1:"))
+number_2 = int(input("number_2:"))
+#
+#
+# if 0 < number_1 < 5 and 0 < number_2 <= 5:
+#     result_2 = number_1 * number_2
+# elif 5 < number_1 <= 10 or 5 < number_2 <= 10:
+#     result_2 = number_1 + number_2
+# elif 5 < number_1 <= 10 and 5 < number_2 <= 10:
+#     result_2 = (number_1 + number_2)*3
+# else:
+#     result_2 = "Wrong values, try again"
+# print(result_2)
+
+'''
+if number_1 > 0 and number_2 <= 5:
+    result_2 = number_1 * number_2
+elif (number_1 > 5 and number_1 <= 10 and not number_2 >5 and number_2 <= 10) or (number_2 > 5 and number_2 <= 10 and not number_1 > 5 and number_1 <=10):
+    result_2 = number_1 + number_2
+elif number_1 > 5 and number_1 <= 10 and number_2 >5 and number_2 <= 10:
+    result_2 = (number_1 + number_2) * 3
+else:
+    result_2 = "Wrong values, try again"
+
+print(result_2)
+'''
 
 # Enter your first name and save it to first_name variable,
 # then Enter last name and save it to last_name
 # If first_name or last_name are shorter than 6 characters, save a full name (with a space between) to result_3
 # Else save first_name to result_3 as many times as length of last_name value
 
-first_name = None
-last_name = None
-result_3 = None
+# first_name = input('firstname:')
+# last_name = input('lastname:')
+#
+#
+# if len(first_name) < 6 or len(last_name) < 6:
+#     result_3 = f'{first_name} {last_name}'
+# else:
+#     result_3 = first_name * len(last_name)
+#
+# print(result_3)
 
 
 # Enter a random number. Save this value to random_number variable
