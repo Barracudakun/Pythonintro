@@ -3,8 +3,15 @@
 # Ex. 1
 # Enter your name, save it in name variable and save in result_1 variable your name repeated 3 times (use loops)
 
-name_1 = None
-result_1 = None
+name_1 = "yingxuyao"
+result_1 = name_1
+for i in range(0, 3):
+    print(result_1)
+
+i = 1
+while i <= 3:
+    print(result_1)
+    i += 1
 
 # TODO: Here is your code
 
@@ -36,3 +43,5 @@ result_3 = None
 result_4 = None
 
 # TODO: Here is your code
+
+
