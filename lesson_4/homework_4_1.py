@@ -54,12 +54,12 @@ print(result_8)
 
 # Create a range of numbers from 0 to 10 (excluding 10) and save it to result_9 variable
 #
-# for result_9 in range(0,10):
-#     print(result_9, end="\t")
+for result_9 in range(0, 10):
+    print(result_9, end="\t")
 
 
-for i in range(0, 10):
-i = result_9
+# for i in range(0, 10):
+# i = result_9
 
 
 
