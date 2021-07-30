@@ -47,7 +47,7 @@
 # Enter your first name and last name in first_name and last_name variables. If the length of your first name is under
 # five characters, join them together (without a space) and save it to result_3 variable in upper case. If the length
 # of the first name is five or more characters, save their first name in lower case in result_3 variable.
-
+#
 # first_name = 'Yingxu'
 # last_name = 'Yao'
 #

@@ -13,7 +13,7 @@ print(result_string_2)
 # Save the expression to result_value variable
 
 number = int("5")
-result_value = number * 3
+result_value = number ** 3
 print(result_value)
 
 # Enter a random number, then save the value to n variable.

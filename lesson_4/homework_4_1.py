@@ -15,6 +15,9 @@ string_2 = 'Python'
 result_3 = "".join(reversed(string_2))
 print(result_3)
 
+result_4 = string_2[::-1]
+print(result_4)
+
 # Slice string string_3 from 5th to 20th (excluding 20th) character and save the result to variable result_4
 
 string_3 = 'Python is a programming language that lets you work quickly and integrate systems more effectively'

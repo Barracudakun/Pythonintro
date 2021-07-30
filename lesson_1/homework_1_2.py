@@ -1,7 +1,7 @@
 # Find the second power of a variable. Save the expression to result_1 variable
 
-a = 10
-result_1 = a*a
+a = None
+result_1 = None
 print(result_1)
 
 # Convert integer variable b to a float. Save the expression to result_2 variable
