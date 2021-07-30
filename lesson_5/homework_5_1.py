@@ -51,8 +51,11 @@ print('Celsius is',temerature_convertor(100))
 # Write a function that takes the distance travelled (in kilometers) as its only parameter and returns the total fare
 # as its only result rounded by 2 digits. Write a program that demonstrates the function.
 
-def taxi_fare(distance):
-    pass
 
-# examples of usage:
-# taxi_fare(10) #21.86
+
+def taxi_fare(distance):
+    result = 4 + 0.25*(distance/0.14)
+    return result
+
+taxi_fare(10)  #21.86
+print("fare is", round(taxi_fare(10),2))
